@@ -2,17 +2,13 @@ import javax.swing.JOptionPane;
 
 public class AppConcierto {
     public static void main(String[] args) {
-        ConciertoMusica miNuevoConcierto = new ConciertoMusica();
-        ConciertoLugar lugarDeMiConcierto = new ConciertoLugar();
+        ConciertoLugar lugarDeMiConcierto = new ConciertoLugar(100, "La casona");
+        ConciertoMusica miNuevoConcierto = new ConciertoMusica("Viernes", 17, lugarDeMiConcierto,
+                "El concierto de beto");
 
-        lugarDeMiConcierto.capacidad = 12;
-        lugarDeMiConcierto.nombreLugar = "Gimnasio";
+        miNuevoConcierto.setConciertolugar(lugarDeMiConcierto);
 
-        miNuevoConcierto.nombreConcierto = "Mi nuevo concierto";
-        miNuevoConcierto.dia = "10/12/31";
-        miNuevoConcierto.hora = 18;
-
-        miNuevoConcierto.conciertolugar = lugarDeMiConcierto;
+        JOptionPane.showMessageDialog(null, miNuevoConcierto.toString());
 
     }
 }
