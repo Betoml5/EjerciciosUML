@@ -1,4 +1,4 @@
-package practica_1;
+
 
 public abstract class Superficie {
 

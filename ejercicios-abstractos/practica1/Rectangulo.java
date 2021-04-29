@@ -1,4 +1,4 @@
-package practica_1;
+
 
 public class Rectangulo extends Superficie {
     private double base;
@@ -12,7 +12,7 @@ public class Rectangulo extends Superficie {
     // We must implement this method
     public void calcularArea() {
         // The formula
-        this.area = (base * altura) / 2;
+        this.area = (base * altura);
     }
 
 }

@@ -1,4 +1,4 @@
-package practica_1;
+
 
 import javax.swing.JOptionPane;
 

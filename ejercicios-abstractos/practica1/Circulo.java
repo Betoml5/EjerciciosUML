@@ -1,4 +1,3 @@
-package practica_1;
 
 public class Circulo extends Superficie {
     private double radio;
