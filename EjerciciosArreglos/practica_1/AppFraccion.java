@@ -7,6 +7,7 @@ public class AppFraccion {
         // Fraccion miFraccion = new Fraccion(1, 8);
         // Fraccion miFraccion2 = new Fraccion(2, 3);
         // JOptionPane.showMessageDialog(null, miFraccion.sum(miFraccion2));
+
         int numeroFracciones = Integer.parseInt(JOptionPane.showInputDialog(null, "Cuantas fracciones quieres crear?"));
         Fraccion[] arregloFracciones = new Fraccion[numeroFracciones];
         for (int i = 0; i < arregloFracciones.length; i++) {

@@ -47,7 +47,7 @@ public class ConciertoMusica {
     public String toString() {
 
         return "\nNombre del concierto: " + this.nombreConcierto + "\nDia del concierto: " + this.dia
-                + "\nHora del concierto: " + this.hora;
+                + "\nHora del concierto: " + this.hora + "\nLugar: " + this.conciertolugar.toString();
     }
 
 }

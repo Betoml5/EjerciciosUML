@@ -1,0 +1,8 @@
+@startuml
+actor user
+participant backend
+database datastore
+rectangle
+user -> backend: Send HTTP request to get info
+
+@enduml

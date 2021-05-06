@@ -26,6 +26,14 @@ public class Autor {
         this.email = email;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setGenero(char genero) {
+        this.genero = genero;
+    }
+
     @Override
     public String toString() {
         return "\nNombre del autor: " + this.nombre + "\nEmail del autor: " + this.email + "\nGenero del autor: "

@@ -2,7 +2,7 @@
 public class Circulo extends Superficie {
     private double radio;
 
-    Circulo(double radio) {
+    public Circulo(double radio) {
         this.radio = radio;
     }
 

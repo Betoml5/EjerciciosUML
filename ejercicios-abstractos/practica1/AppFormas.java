@@ -1,5 +1,4 @@
 
-
 import javax.swing.JOptionPane;
 
 /**
@@ -13,6 +12,7 @@ public class AppFormas {
 
         miRectangulo.calcularArea();
         miCirculo.calcularArea();
+        System.out.println("Holamundo");
 
         JOptionPane.showMessageDialog(null, miRectangulo.getArea(), "El area del rectangulo", 1);
         JOptionPane.showMessageDialog(null, miCirculo.getArea(), "El area del circulo", 1);
