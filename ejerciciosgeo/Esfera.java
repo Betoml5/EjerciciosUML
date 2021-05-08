@@ -9,7 +9,7 @@ public class Esfera extends FiguraGeometrica{
 	}
 	
 	public void calcularVolumen() {
-		this.volumen = 1.3 * (Math.PI * Math.pow(r, 3));
+		this.volumen = 1.3333 * (Math.PI * Math.pow(r, 3));
 	}
 
 }
